@@ -1,0 +1,263 @@
+.content {
+  margin: 20px 2px;
+}
+
+@media screen and (min-width: 700px) {
+  .content {
+    width: 700px;
+    margin: 20px auto;
+  }
+  .content.wide {
+    width: auto;
+    margin: 20px 4px;
+  }
+}
+
+.question {
+  margin: 20px 0;
+}
+
+.question-title {
+  font-size: larger;
+}
+
+textarea {
+  width: 98%;
+  height: 5em;
+}
+
+@media screen and (min-width: 410px) {
+  textarea {
+    width: 400px;
+  }
+}
+
+input[type="text"] {
+  width: 15em;
+}
+
+.options li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.error {
+  color: #a40000;
+}
+
+.results {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.results td,
+.results th {
+  padding: 5px 8px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.questionnaire-list li {
+  margin: 10px auto;
+}
+
+.questionnaire-list .form {
+}
+
+td.dimensions {
+  text-align: -webkit-center;
+}
+
+.progress-bar-container {
+  width: 190px;
+  height: 20px;
+  background: #ddd;
+  display: flex;
+  position: relative;
+  margin: 32px 16px;
+}
+
+.progress-bar-container .progress-bar {
+  height: 20px;
+  /* margin-top: -11px; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  background: #0aa96c;
+
+}
+
+.progress-bar-container .progress-bar.positive {
+  background: #0aa96c;
+  margin-left: 95px;
+}
+
+.progress-bar-container .progress-bar.neutral {
+  background: #666;
+  margin-left: calc(95px - 23.75px);
+}
+
+.progress-bar-container .progress-bar.neutral ~ .middle {
+  z-index: 0;
+}
+
+.progress-bar-container .progress-bar.negative {
+  background: #ce1d19;
+}
+
+.progress-bar-container .progress-bar.negative.half {
+  margin-left: 47.5px;
+}
+
+.progress-bar-container .progress-bar.progress1 {
+  margin-left: 95px;
+  width: calc((95/11) * 1px);
+}
+
+.progress-bar-container .progress-bar.progress2 {
+  margin-left: 95px;
+  width: calc((95/11) * 2px);
+}
+
+.progress-bar-container .progress-bar.progress3 {
+  margin-left: 95px;
+  width: calc((95/11) * 3px);
+}
+
+.progress-bar-container .progress-bar.progress4 {
+  margin-left: 95px;
+  width: calc((95/11) * 4px);
+}
+
+.progress-bar-container .progress-bar.progress5 {
+  margin-left: 95px;
+  width: calc((95/11) * 5px);
+}
+
+.progress-bar-container .progress-bar.progress6 {
+  margin-left: 95px;
+  width: calc((95/11) * 6px);
+}
+
+.progress-bar-container .progress-bar.progress7 {
+  margin-left: 95px;
+  width: calc((95/11) * 7px);
+}
+
+.progress-bar-container .progress-bar.progress8 {
+  margin-left: 95px;
+  width: calc((95/11) * 8px);
+}
+
+.progress-bar-container .progress-bar.progress9 {
+  margin-left: 95px;
+  width: calc((95/11) * 9px);
+}
+
+.progress-bar-container .progress-bar.progress10 {
+  margin-left: 95px;
+  width: calc((95/11) * 10px);
+}
+
+.progress-bar-container .progress-bar.progress11 {
+  margin-left: 95px;
+  width: 95px;
+}
+
+.progress-bar-container .progress-bar.progress-1 {
+  margin-left: calc((95 / 11) * 10px);
+  width: calc((95 / 11) * 1px);
+  background: #ce1d19;
+}
+
+.progress-bar-container .progress-bar.progress-2 {
+  margin-left: calc((95 / 11) * 9px);
+  width: calc((95 / 11) * 2px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-3 {
+  margin-left: calc((95 / 11) * 8px);
+  width: calc((95 / 11) * 3px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-4 {
+  margin-left: calc((95 / 11) * 7px);
+  width: calc((95 / 11) * 4px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-5 {
+  margin-left: calc((95 / 11) * 6px);
+  width: calc((95 / 11) * 5px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-6 {
+  margin-left: calc((95 / 11) * 5px);
+  width: calc((95 / 11) * 6px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-7 {
+  margin-left: calc((95 / 11) * 4px);
+  width: calc((95 / 11) * 7px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-8 {
+  margin-left: calc((95 / 11) * 3px);
+  width: calc((95 / 11) * 8px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-9 {
+  margin-left: calc((95 / 11) * 2px);
+  width: calc((95 / 11) * 9px);
+  background: #ce1d19;
+}
+.progress-bar-container .progress-bar.progress-10 {
+  margin-left: calc((95 / 11) * 1px);
+  width: calc((95 / 11) * 10px);
+  background: #ce1d19;
+}
+
+.progress-bar-container .progress-bar.progress-11 {
+  margin-left: 0px;
+  width: 95px;
+  background: #ce1d19;
+}
+
+.progress-bar-container .progress-bar.half {
+  width: 47.5px;
+}
+
+.progress-bar-container .marker {
+  position: absolute;
+  top: -1px;
+  width: 2px;
+  height: 22px;
+  background: #777;
+  z-index: 2;
+}
+
+.progress-bar-container .marker.first {
+  left: 0;
+}
+
+.progress-bar-container .marker.middle {
+  left: calc(50% - 1px);
+}
+
+.progress-bar-container .marker.last {
+  right: 0;
+}
+
+.labels {
+  width: 190px;
+  margin-top: 12px;
+  padding-top: 12px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.labels .right-label {
+  text-align: right;
+}
